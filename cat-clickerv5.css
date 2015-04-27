@@ -1,0 +1,45 @@
+main{
+	position:relative;
+}
+
+input{
+	display:block;
+}
+
+#catselection {
+	float:left;
+}
+
+#displayarea{
+	position:absolute;
+	left: 200px;
+	width: 500px;
+}
+
+#adminarea{
+	position:absolute;
+	left:720px;
+	top:140px;
+}
+
+#selectedCat{
+	width:950px;
+	height:700px;
+	position:absolute;
+}
+
+.tab{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.big{
+	width: 500px;
+	height: 500px;	
+}
+
+.tab:hover,
+.big:hover{
+	cursor: pointer;
+}

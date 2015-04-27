@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<link rel ="stylesheet" href="cat-clickerv5.css"/>
+	</head>
+	<body>
+		<h1>Welcome to Cat Clicker Premium Pro!</h1>
+		<main>
+			<div id ="catselection"></div>
+			<div id ="displayarea"></div>
+			<div id ="adminarea">
+				<button id ="admin-button">Admin Mode</button>
+				<div id = "admin-control-panel" style="display:none;">
+					<form>
+						<div class ="form-input"><label>Cat Name: </label><input type = "text" id ="admin-cat-name"></div>
+						<div class ="form-input"><label>Cat URL: </label><input type = "text" id="admin-cat-url"></div>
+						<div class ="form-input"><label>Counter: </label><input type = "text" id ="admin-cat-counter"></div>
+						<button id="admin-cancel">Cancel</button>
+						<button id = "admin-save">Save</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		
+		<div class = "template-cat-selection" style = "display:none;">
+			<h1>{{name}}</h1>
+			<img class = "tab" src = "{{src}}" name="{{name}}"></img>
+		</div>
+		
+		<div class = "template-cat-display" style = "display:none;">
+			<h1>{{name}}</h1>
+			<h1>Counter: <span>{{clickCount}}</span></h1>
+			<img class = "big" src="{{src}}" name="{{name}}">
+		</div>
+		
+		<script src="cat-clickerv5.js"></script>
+	</body>
+</html>
