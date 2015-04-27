@@ -1,2 +1,2 @@
 # cat-clicker
-Toy program using MVC design pattern. 
+A toy program using MVC design pattern. 
